@@ -1,0 +1,17 @@
+@import 'core';
+
+.FormComponent {
+  background-color: lightgray;
+  padding: 20px;
+}
+
+.button {
+  composes: blueBtn from './shared/_buttons.scss';
+  margin-left: 10px;
+}
+
+.buttonIsDisabled {
+  composes: button;
+  color: red;
+  opacity: .5;
+}

@@ -1,0 +1,18 @@
+@import 'core';
+
+
+.MarketingSectionComponent {
+  padding: 20px;
+}
+
+.headline {
+  @include bold-headline;
+}
+
+.marketingText {
+  font-style: italic;
+}
+
+.pl50 {
+  padding-left: 50px;
+}

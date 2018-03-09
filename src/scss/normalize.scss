@@ -1,0 +1,20 @@
+@import 'core';
+
+body {
+  font-family: sans-serif;
+}
+
+p {
+  color: $text-color;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: $headline-color;
+  font-weight: $headline-font-weight;
+  text-transform: uppercase;
+}
